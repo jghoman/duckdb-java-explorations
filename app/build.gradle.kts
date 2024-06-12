@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
     implementation("org.duckdb:duckdb_jdbc:1.0.0")
+    implementation("org.jdbi:jdbi3-core:3.45.1")
 
     // Use JUnit test framework.
     testImplementation(libs.junit)
